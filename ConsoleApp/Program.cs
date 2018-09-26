@@ -10,6 +10,11 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            int firstNumber = 1;
+            int secondNumber = 5;
+            int result = firstNumber + secondNumber;
+            Console.WriteLine($"Output {result}");
+            Console.ReadLine();
         }
     }
 }
